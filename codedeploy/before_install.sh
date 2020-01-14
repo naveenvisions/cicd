@@ -2,10 +2,10 @@
 
 # This script is executed before copying the source
 
-apt-get update
+sudo apt-get update
 
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
-apt-get install nodejs
+sudo apt-get install nodejs
 
 npm install -g pm2
 pm2 update
