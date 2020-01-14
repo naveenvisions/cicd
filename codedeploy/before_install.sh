@@ -5,7 +5,7 @@
 sudo apt-get update
 
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
-sudo apt-get install nodejs
+sudo apt-get -y install nodejs
 
 npm install -g pm2
 pm2 update
